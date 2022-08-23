@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(244, 197, 232);
+    background-image: url(kakashiwide1.jpg);
+
+}#container{
+    
+}
+
+#container form {
+    border: 5px rgb(190, 183, 183);
+    border-style: outset ;
+    height: 750px;
+    width: 600px;
+    background-color: rgb(236, 246, 246);
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 0,9cm;
+    box-shadow: 18px 18px  rgb(156, 153, 153);
+    background-image: url(kakashihokage1.jpg);
+    padding: 40px;
+   
+}
+
+#container input[type=textfield] {
+    height: 220px;
+   width: 520px;
+   border: 4px rgba(130, 128, 128, 0.765) ;
+   border-style: ridge;
+   margin-left: 30px; /* para que la figura se centre
+   */
+   border-radius: 15px;
+   background-color: rgb(251, 252, 247);
+   margin-top: 0.8cm; 
+   box-shadow: 5px 5px 5px rgb(115, 114, 114);
+   background-color: rgba(227, 219, 219, 0.897);
+   font-size: 500%;
+   text-align: center;
+}
+#container input[type=button] {
+    height: 80px;
+    width: 110px;
+    border: 4px  rgb(186, 180, 180);
+    border-style: outset;
+    margin: auto; /* para que la figura se centre
+    */
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: rgba(237, 246, 244, 0.877);
+    float: left;
+    margin-right: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 0.5cm;
+    font-size: 1.5cm;
+    font-style: inherit ;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px  rgba(23, 22, 22, 0.651) ;
+}
+#container input[type=reset] {
+    height: 80px;
+    width: 110px;
+    border: 4px  rgb(186, 180, 180);
+    border-style: outset;
+    margin: auto; /* para que la figura se centre
+    */
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: rgba(237, 246, 244, 0.877);
+    float: left;
+    margin-right: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 0.5cm;
+    font-size: 1.5cm;
+    font-style: inherit ;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px  rgba(23, 22, 22, 0.651) ;
+}
